@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main(){
     printf("bem vindos ao jogo de cartas super trunfo!\n");
+
+    char estado = "fortaleza";
+     
     
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
