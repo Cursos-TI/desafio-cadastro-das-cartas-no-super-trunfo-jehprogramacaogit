@@ -4,7 +4,7 @@ int main(){
 
     char estado = "Amazonas";
     char estado = "Bahia";
-    char código[20] = ""
+    char código[20] = "A01";
 
 
     
