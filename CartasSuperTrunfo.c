@@ -3,7 +3,9 @@ int main(){
     printf("bem vindos ao jogo de cartas super trunfo!\n");
 
     char estado = "fortaleza";
-     
+    char estado = "Bahia";
+    
+
     
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
