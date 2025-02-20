@@ -2,11 +2,11 @@
 int main(){
     printf("bem vindos ao jogo de cartas super trunfo!\n");
 
-    char estado = "Amazonas";
+    char estado = "Amazônia";
     char estado = "Bahia";
     char código[20] = "A01";
     char código[20] = "B01";
-    
+    char nomedacidade[30] = ""
 
 
     
