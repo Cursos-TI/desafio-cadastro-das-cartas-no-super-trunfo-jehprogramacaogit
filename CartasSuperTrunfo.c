@@ -6,7 +6,7 @@ int main(){
     char estado = "Bahia";
     char código[20] = "A01";
     char código[20] = "B01";
-    char nomedacidade[30] = ""
+    char nomedacidade[30] = "Manaus";
 
 
     
