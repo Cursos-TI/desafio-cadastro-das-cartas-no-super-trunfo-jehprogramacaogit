@@ -2,9 +2,10 @@
 int main(){
     printf("bem vindos ao jogo de cartas super trunfo!\n");
 
-    char estado = "fortaleza";
+    char estado = "Amazonas";
     char estado = "Bahia";
-    
+    char código[20] = ""
+
 
     
 
