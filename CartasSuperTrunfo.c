@@ -1,13 +1,29 @@
 #include <stdio.h>
 
-    //Estrutura para armazenar os dados da cidade
+    //Estrutura para armazenar os dados da cidade 1
     char estado = 'A';
-    char código[4] = "A01";
-    char nomedacidade[20] = "manaus";
+    char código [4] = "A01";
+    char nomedacidade [20] = "manaus";
     int polulação = 4281.000;
-    float área = 1571.000;
-    float Pib = 429.000;
+    float áreakm² = 1571.000;
+    float Pib = 429.0000;
     int númerodepontosturísticos = 60;
+
+    // estrutura para armazenar os dados da cidade 2
+
+    char estado = 'B';
+    char código [4] = "B02";
+    char nomedacidade [20] = "Salvador";
+    int população = 1414.000;
+    float Áreakm² = 567.295;
+    float Pib = 144.4000;
+    int númerodepontosturísticos = 40;
+    
+
+
+
+
+
 
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
