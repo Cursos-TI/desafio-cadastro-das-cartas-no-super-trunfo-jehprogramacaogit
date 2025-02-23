@@ -1,35 +1,20 @@
 #include <stdio.h>
-
-    //Estrutura para armazenar os dados da cidade 1
-    char estado = 'A';
-    char código [4] = "A01";
-    char nomedacidade [20] = "manaus";
-    int polulação = 4281.000;
-    float áreakm² = 1571.000;
-    float Pib = 429.0000;
-    int númerodepontosturísticos = 60;
-
-    // estrutura para armazenar os dados da cidade 2
-
-    char estado = 'B';
-    char código [4] = "B02";
-    char nomedacidade [20] = "Salvador";
-    int população = 1414.000;
-    float Áreakm² = 567.295;
-    float Pib = 144.4000;
-    int númerodepontosturísticos = 40;
-    
-
-
-
-
-
-
-    
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
     int main(){
+    //Estrutura para armazenar os dados da cidade 1
+    char estado = "A";
+    char código[4] = "A01";
+    char nomedacidade [20] = "sao paulo";
+    int polulação = 12325000;
+    float áreakm² = 15221.11;
+    float Pib = 699.28;
+    int turísticos = 50;
+
+
+    
+
+
+        printf("digite o estado\n");
+        scanf("%c", &estado);
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
