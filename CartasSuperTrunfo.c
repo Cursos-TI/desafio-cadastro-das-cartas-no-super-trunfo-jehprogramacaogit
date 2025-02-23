@@ -2,7 +2,7 @@
     int main(){
     //Estrutura para armazenar os dados da cidade 1
     char estado = 'A';
-    char código = "A01";
+    char código[4] = "A01";
 
     printf("digite o estado\n");
     scanf("%c", &estado);
