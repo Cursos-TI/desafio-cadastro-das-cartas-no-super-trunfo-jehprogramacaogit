@@ -1,20 +1,12 @@
 #include <stdio.h>
     int main(){
     //Estrutura para armazenar os dados da cidade 1
-    char estado = "A";
-    char código[4] = "A01";
-    char nomedacidade [20] = "sao paulo";
-    int polulação = 12325000;
-    float áreakm² = 15221.11;
-    float Pib = 699.28;
-    int turísticos = 50;
+    char estado = 'A';
+
+    printf("digite o estado\n");
+    scanf("%c", &estado);
 
 
-    
-
-
-        printf("digite o estado\n");
-        scanf("%c", &estado);
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
