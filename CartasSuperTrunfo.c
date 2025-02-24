@@ -28,7 +28,7 @@ int main() {
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
 
-    // Exibição dos dados cadastrados Carta 01
+    // Exibição dos dados cadastrados Carta 1
     printf("\nDados cadastrados Carta 1:\n");
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", codigo);
@@ -61,7 +61,7 @@ int main() {
     
     printf("\n");
 
-    // Exibição dos dados cadastrados A02
+    // Exibição dos dados cadastrados Carta 2
     printf("\nDados cadastrados Carta 2:\n");
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", codigo);
