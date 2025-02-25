@@ -8,23 +8,21 @@ int main() {
     float area;
     float pib;
     int pontos_turisticos;
-
+    
+    //imprimindo o testo na tela e lendo a entrada do usuário carta 1 
+    //usando especificadores de formato 
     printf("Digite a sigla do estado:\n");
     scanf("%s", estado);  
     printf("Digite o código:\n");
     scanf("%s", codigo); 
     printf("Digite a cidade:\n");
     scanf("%s", cidade); 
-
     printf("Digite a população:\n");
     scanf("%d", &populacao); 
-
     printf("Digite a área:\n");
     scanf("%f", &area);  
-
     printf("Digite o PIB:\n");
     scanf("%f", &pib);  
-
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
 
@@ -40,22 +38,20 @@ int main() {
      
     printf("\n");
 
+    //imprimindo o testo na tela e lendo a entrada do usuário carta 2
+    //usando especificadores de formato
     printf("Digite a sigla do estado:\n");
     scanf("%s", estado);  
     printf("Digite o código:\n");
     scanf("%s", codigo); 
     printf("Digite a cidade:\n");
     scanf("%s", cidade); 
-
     printf("Digite a população:\n");
     scanf("%d", &populacao); 
-
     printf("Digite a área:\n");
     scanf("%f", &area);  
-
     printf("Digite o PIB:\n");
     scanf("%f", &pib);  
-
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
     
