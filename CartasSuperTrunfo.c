@@ -10,8 +10,12 @@ int main() {
     int pontos_turisticos;
     float densidade_populacional;
     float pib_per_capita;
-    float divisao = populacao / area;
-    float divisao = pib / populacao;
+    float divisao;
+
+    divisao = populacao / area;
+    divisao = pib / populacao;
+
+
 
 
     //imprimindo o testo na tela e lendo a entrada do usuário carta 1 
@@ -36,13 +40,13 @@ int main() {
     scanf("%f", &pib_per_capita);
 
      //lendo os dados da divisao carta 1
-     print("digite a populacao: \n");
-     scanf("%f", &populacao);
-     print("digite a area: \n");
+     printf("digite a populacao: \n");
+     scanf("%d", &populacao);
+     printf("digite a area: \n");
      scanf("%f", &area);
-     print("digite a pib: \n");
+     printf("digite a pib: \n");
      scanf("%f", &pib);
-     print("digite a populacao: \n");
+     printf("digite a populacao: \n");
      scanf("%f", &populacao);
 
 
