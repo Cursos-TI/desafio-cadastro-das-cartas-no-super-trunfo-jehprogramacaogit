@@ -29,7 +29,6 @@ int main() {
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
     printf("digite a densidade populacional:\n");
-    scanf("%.2f", &densidade_populacional);
     printf("digite o pib per capita:\n");
     scanf("%.2f", &pib_per_capita);
 
