@@ -27,12 +27,13 @@ int main() {
     printf("Digite a população:\n");
     scanf("%d", &populacao); 
     printf("Digite a área:\n");
-    scanf("%f", &area);  
+    scanf("%f", &area); 
     printf("Digite o PIB:\n");
     scanf("%f", &pib);  
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
     printf("digite a densidade populacional:\n");
+    scanf("%f", &densidade_populacional);
     printf("digite o pib per capita:\n");
     scanf("%f", &pib_per_capita);
 
@@ -110,7 +111,7 @@ int main() {
     printf("PIB: %.2f bilhões\n", pib);
     printf("Pontos turísticos: %d\n", pontos_turisticos); 
     printf("densidade populacional: %.2f habitantes\n", densidade_populacional);
-    printf("pib per capita: %.2f reais\n", pib_per_capita); 
+    printf("pib per capita: %.2f\n", pib_per_capita); 
 
     
     //imprimindo o resultado
