@@ -15,7 +15,6 @@ int main() {
     float divisao = populacao / area;
     float divisao = pib / populacao;
 
-     
 
     //imprimindo o testo na tela e lendo a entrada do usuário carta 1 
     //usando especificadores de formato 
@@ -37,6 +36,17 @@ int main() {
     printf("digite o pib per capita:\n");
     scanf("%f", &pib_per_capita);
 
+     //lendo os dados da divisao carta 1
+     print("digite a populacao: \n");
+     scanf("%f", &populacao);
+     print("digite a area: \n");
+     scanf("%f", &area);
+     print("digite a pib: \n");
+     scanf("%f", &pib);
+     print("digite a populacao: \n");
+     scanf("%f", &populacao);
+
+
     // Exibição dos dados cadastrados Carta 1
     printf("\nDados cadastrados Carta 1:\n");
     printf("Estado: %s\n", estado);
@@ -48,6 +58,12 @@ int main() {
     printf("Pontos turísticos: %d\n", pontos_turisticos); 
     printf("densidade populacional: %f habitantes\n", densidade_populacional);
     printf("pib per capita: %.2f reais\n", pib_per_capita); 
+
+    
+    //imprimindo o resultado
+    printf("numeros de habitantes por quilometro quadrados e : %.2f, resultado");
+    printf("o pib per capita e : %.2f, resultado");
+
      
     printf("\n");
 
@@ -71,6 +87,16 @@ int main() {
     scanf("%f", &densidade_populacional);
     printf("digite o pib per capita:\n");
     scanf("%f", &pib_per_capita);
+
+     //lendo os dados da divisao carta 2
+     print("digite a populacao: \n");
+     scanf("%f", &populacao);
+     print("digite a area: \n");
+     scanf("%f", &area);
+     print("digite a pib: \n");
+     scanf("%f", &pib);
+     print("digite a populacao: \n");
+     scanf("%f", &populacao);
     
     printf("\n");
 
@@ -85,6 +111,12 @@ int main() {
     printf("Pontos turísticos: %d\n", pontos_turisticos); 
     printf("densidade populacional: %.2f habitantes\n", densidade_populacional);
     printf("pib per capita: %.2f reais\n", pib_per_capita); 
+
+    
+    //imprimindo o resultado
+    printf("numeros de habitantes por quilometro quadrados e : %.2f, resultado");
+    printf("o pib per capita e : %.2f, resultado");
+
      
        
     return 0;
