@@ -47,7 +47,7 @@ int main() {
      printf("digite a pib: \n");
      scanf("%f", &pib);
      printf("digite a populacao: \n");
-     scanf("%f", &populacao);
+     scanf("%d", &populacao);
 
 
     // Exibição dos dados cadastrados Carta 1
