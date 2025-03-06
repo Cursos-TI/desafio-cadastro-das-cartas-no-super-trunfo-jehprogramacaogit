@@ -30,7 +30,7 @@ int main() {
     scanf("%d", &pontos_turisticos);  
     printf("digite a densidade populacional:\n");
     printf("digite o pib per capita:\n");
-    scanf("%.2f", &pib_per_capita);
+    scanf("%f", &pib_per_capita);
 
     // Exibição dos dados cadastrados Carta 1
     printf("\nDados cadastrados Carta 1:\n");
@@ -63,9 +63,9 @@ int main() {
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &pontos_turisticos);  
     printf("digite a densidade populacional:\n");
-    scanf("%.2f", &densidade_populacional);
+    scanf("%f", &densidade_populacional);
     printf("digite o pib per capita:\n");
-    scanf("%.2f", &pib_per_capita);
+    scanf("%f", &pib_per_capita);
     
     printf("\n");
 
