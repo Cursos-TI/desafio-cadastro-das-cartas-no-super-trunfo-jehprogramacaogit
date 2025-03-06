@@ -11,7 +11,12 @@ int main() {
     float densidade_populacional;
     float pib_per_capita;
 
-    
+    //operacao divisao
+    float divisao = populacao / area;
+    float divisao = pib / populacao;
+
+     
+
     //imprimindo o testo na tela e lendo a entrada do usuário carta 1 
     //usando especificadores de formato 
     printf("Digite a sigla do estado:\n");
