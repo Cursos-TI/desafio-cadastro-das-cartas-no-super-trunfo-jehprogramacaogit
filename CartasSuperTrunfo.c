@@ -10,8 +10,6 @@ int main() {
     int pontos_turisticos;
     float densidade_populacional;
     float pib_per_capita;
-
-    //operacao divisao
     float divisao = populacao / area;
     float divisao = pib / populacao;
 
